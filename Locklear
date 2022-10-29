@@ -1,0 +1,116 @@
+import turtle
+win = turtle.Screen()
+t = turtle.Turtle()
+
+#customize
+t.pensize(6)
+t.pencolor("turquoise")
+t.shape("turtle")
+t.speed(10)
+
+
+t.left(90)
+
+numSides = 25
+angle = 360/50
+sides = range(numSides)
+
+distance = 15
+
+for i in sides:
+    t.forward(distance)
+    t.right(angle)
+
+
+t.left(90)
+t.forward(15)
+t.left(90)
+
+
+t.pencolor("coral")
+
+numSides = 26
+angle = 360/48
+sides = range(numSides)
+
+
+distance = 18
+
+
+
+for i in sides:
+    t.forward(distance)
+    t.left(angle)
+    
+    
+t.right(90)
+t.forward(20)
+t.right(90)
+
+
+t.pencolor("hot pink")
+
+numSides = 27
+angle = 360/44
+
+distance = 22
+
+for i in sides:
+    t.forward(distance)
+    t.right(angle)
+
+t.left(110)
+t.forward(20)
+t.left(70)
+
+t.pencolor("yellow green")
+
+numSides = 28
+angle = 360/45
+sides = range(numSides)
+
+distance = 25
+
+
+
+for i in sides:
+    t.forward(distance)
+    t.left(angle)
+
+t.right(90)
+t.forward(15)
+t.right(90)
+
+t.pencolor("light pink")
+
+numSides = 30
+angle = 360/ 45
+sides = range(numSides)
+
+distance = 28
+
+
+
+for i in sides:
+    t.forward(distance)
+    t.right(angle)
+
+t.left(90)
+t.forward(15)
+t.left(90)
+
+
+
+t.pencolor("gold")
+
+numSides = 32
+angle = 360/48
+sides = range(numSides)
+
+distance = 30
+
+
+
+for i in sides:
+    t.forward(distance)
+    t.left(angle)
